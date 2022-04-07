@@ -33,5 +33,16 @@ namespace RetrievingData.Properties {
                 return ((string)(this["AdventureWorksConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-I5CF3Q9T;Initial Catalog=ProdiTI;User ID=sa;Password=dedekgeme" +
+            "s123")]
+        public string ProdiTIConnectionString {
+            get {
+                return ((string)(this["ProdiTIConnectionString"]));
+            }
+        }
     }
 }

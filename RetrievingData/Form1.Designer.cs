@@ -31,28 +31,22 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.adventureWorksDataSet = new RetrievingData.AdventureWorksDataSet();
             this.employeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.adventureWorksDataSet = new RetrievingData.AdventureWorksDataSet();
             this.employeeTableAdapter = new RetrievingData.AdventureWorksDataSetTableAdapters.EmployeeTableAdapter();
-            this.employeeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nationalIDNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.contactIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.loginIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.managerIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.birthDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.maritalStatusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.genderDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.hireDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.salariedFlagDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.vacationHoursDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sickLeaveHoursDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.currentFlagDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.rowguidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.modifiedDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prodiTIDataSet = new RetrievingData.ProdiTIDataSet();
+            this.mahasiswaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.mahasiswaTableAdapter = new RetrievingData.ProdiTIDataSetTableAdapters.MahasiswaTableAdapter();
+            this.nIMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.namaMhsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.alamatMhsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sexDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phoneMhsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.adventureWorksDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.adventureWorksDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prodiTIDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -60,137 +54,73 @@
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.employeeIDDataGridViewTextBoxColumn,
-            this.nationalIDNumberDataGridViewTextBoxColumn,
-            this.contactIDDataGridViewTextBoxColumn,
-            this.loginIDDataGridViewTextBoxColumn,
-            this.managerIDDataGridViewTextBoxColumn,
-            this.titleDataGridViewTextBoxColumn,
-            this.birthDateDataGridViewTextBoxColumn,
-            this.maritalStatusDataGridViewTextBoxColumn,
-            this.genderDataGridViewTextBoxColumn,
-            this.hireDateDataGridViewTextBoxColumn,
-            this.salariedFlagDataGridViewCheckBoxColumn,
-            this.vacationHoursDataGridViewTextBoxColumn,
-            this.sickLeaveHoursDataGridViewTextBoxColumn,
-            this.currentFlagDataGridViewCheckBoxColumn,
-            this.rowguidDataGridViewTextBoxColumn,
-            this.modifiedDateDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.employeeBindingSource;
+            this.nIMDataGridViewTextBoxColumn,
+            this.namaMhsDataGridViewTextBoxColumn,
+            this.alamatMhsDataGridViewTextBoxColumn,
+            this.sexDataGridViewTextBoxColumn,
+            this.phoneMhsDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.mahasiswaBindingSource;
             resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            // 
-            // adventureWorksDataSet
-            // 
-            this.adventureWorksDataSet.DataSetName = "AdventureWorksDataSet";
-            this.adventureWorksDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // employeeBindingSource
             // 
             this.employeeBindingSource.DataMember = "Employee";
             this.employeeBindingSource.DataSource = this.adventureWorksDataSet;
             // 
+            // adventureWorksDataSet
+            // 
+            this.adventureWorksDataSet.DataSetName = "AdventureWorksDataSet";
+            this.adventureWorksDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // employeeTableAdapter
             // 
             this.employeeTableAdapter.ClearBeforeFill = true;
             // 
-            // employeeIDDataGridViewTextBoxColumn
+            // prodiTIDataSet
             // 
-            this.employeeIDDataGridViewTextBoxColumn.DataPropertyName = "EmployeeID";
-            resources.ApplyResources(this.employeeIDDataGridViewTextBoxColumn, "employeeIDDataGridViewTextBoxColumn");
-            this.employeeIDDataGridViewTextBoxColumn.Name = "employeeIDDataGridViewTextBoxColumn";
-            this.employeeIDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.prodiTIDataSet.DataSetName = "ProdiTIDataSet";
+            this.prodiTIDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // nationalIDNumberDataGridViewTextBoxColumn
+            // mahasiswaBindingSource
             // 
-            this.nationalIDNumberDataGridViewTextBoxColumn.DataPropertyName = "NationalIDNumber";
-            resources.ApplyResources(this.nationalIDNumberDataGridViewTextBoxColumn, "nationalIDNumberDataGridViewTextBoxColumn");
-            this.nationalIDNumberDataGridViewTextBoxColumn.Name = "nationalIDNumberDataGridViewTextBoxColumn";
+            this.mahasiswaBindingSource.DataMember = "Mahasiswa";
+            this.mahasiswaBindingSource.DataSource = this.prodiTIDataSet;
             // 
-            // contactIDDataGridViewTextBoxColumn
+            // mahasiswaTableAdapter
             // 
-            this.contactIDDataGridViewTextBoxColumn.DataPropertyName = "ContactID";
-            resources.ApplyResources(this.contactIDDataGridViewTextBoxColumn, "contactIDDataGridViewTextBoxColumn");
-            this.contactIDDataGridViewTextBoxColumn.Name = "contactIDDataGridViewTextBoxColumn";
+            this.mahasiswaTableAdapter.ClearBeforeFill = true;
             // 
-            // loginIDDataGridViewTextBoxColumn
+            // nIMDataGridViewTextBoxColumn
             // 
-            this.loginIDDataGridViewTextBoxColumn.DataPropertyName = "LoginID";
-            resources.ApplyResources(this.loginIDDataGridViewTextBoxColumn, "loginIDDataGridViewTextBoxColumn");
-            this.loginIDDataGridViewTextBoxColumn.Name = "loginIDDataGridViewTextBoxColumn";
+            this.nIMDataGridViewTextBoxColumn.DataPropertyName = "NIM";
+            resources.ApplyResources(this.nIMDataGridViewTextBoxColumn, "nIMDataGridViewTextBoxColumn");
+            this.nIMDataGridViewTextBoxColumn.Name = "nIMDataGridViewTextBoxColumn";
             // 
-            // managerIDDataGridViewTextBoxColumn
+            // namaMhsDataGridViewTextBoxColumn
             // 
-            this.managerIDDataGridViewTextBoxColumn.DataPropertyName = "ManagerID";
-            resources.ApplyResources(this.managerIDDataGridViewTextBoxColumn, "managerIDDataGridViewTextBoxColumn");
-            this.managerIDDataGridViewTextBoxColumn.Name = "managerIDDataGridViewTextBoxColumn";
+            this.namaMhsDataGridViewTextBoxColumn.DataPropertyName = "NamaMhs";
+            resources.ApplyResources(this.namaMhsDataGridViewTextBoxColumn, "namaMhsDataGridViewTextBoxColumn");
+            this.namaMhsDataGridViewTextBoxColumn.Name = "namaMhsDataGridViewTextBoxColumn";
             // 
-            // titleDataGridViewTextBoxColumn
+            // alamatMhsDataGridViewTextBoxColumn
             // 
-            this.titleDataGridViewTextBoxColumn.DataPropertyName = "Title";
-            resources.ApplyResources(this.titleDataGridViewTextBoxColumn, "titleDataGridViewTextBoxColumn");
-            this.titleDataGridViewTextBoxColumn.Name = "titleDataGridViewTextBoxColumn";
+            this.alamatMhsDataGridViewTextBoxColumn.DataPropertyName = "AlamatMhs";
+            resources.ApplyResources(this.alamatMhsDataGridViewTextBoxColumn, "alamatMhsDataGridViewTextBoxColumn");
+            this.alamatMhsDataGridViewTextBoxColumn.Name = "alamatMhsDataGridViewTextBoxColumn";
             // 
-            // birthDateDataGridViewTextBoxColumn
+            // sexDataGridViewTextBoxColumn
             // 
-            this.birthDateDataGridViewTextBoxColumn.DataPropertyName = "BirthDate";
-            resources.ApplyResources(this.birthDateDataGridViewTextBoxColumn, "birthDateDataGridViewTextBoxColumn");
-            this.birthDateDataGridViewTextBoxColumn.Name = "birthDateDataGridViewTextBoxColumn";
+            this.sexDataGridViewTextBoxColumn.DataPropertyName = "Sex";
+            resources.ApplyResources(this.sexDataGridViewTextBoxColumn, "sexDataGridViewTextBoxColumn");
+            this.sexDataGridViewTextBoxColumn.Name = "sexDataGridViewTextBoxColumn";
             // 
-            // maritalStatusDataGridViewTextBoxColumn
+            // phoneMhsDataGridViewTextBoxColumn
             // 
-            this.maritalStatusDataGridViewTextBoxColumn.DataPropertyName = "MaritalStatus";
-            resources.ApplyResources(this.maritalStatusDataGridViewTextBoxColumn, "maritalStatusDataGridViewTextBoxColumn");
-            this.maritalStatusDataGridViewTextBoxColumn.Name = "maritalStatusDataGridViewTextBoxColumn";
-            // 
-            // genderDataGridViewTextBoxColumn
-            // 
-            this.genderDataGridViewTextBoxColumn.DataPropertyName = "Gender";
-            resources.ApplyResources(this.genderDataGridViewTextBoxColumn, "genderDataGridViewTextBoxColumn");
-            this.genderDataGridViewTextBoxColumn.Name = "genderDataGridViewTextBoxColumn";
-            // 
-            // hireDateDataGridViewTextBoxColumn
-            // 
-            this.hireDateDataGridViewTextBoxColumn.DataPropertyName = "HireDate";
-            resources.ApplyResources(this.hireDateDataGridViewTextBoxColumn, "hireDateDataGridViewTextBoxColumn");
-            this.hireDateDataGridViewTextBoxColumn.Name = "hireDateDataGridViewTextBoxColumn";
-            // 
-            // salariedFlagDataGridViewCheckBoxColumn
-            // 
-            this.salariedFlagDataGridViewCheckBoxColumn.DataPropertyName = "SalariedFlag";
-            resources.ApplyResources(this.salariedFlagDataGridViewCheckBoxColumn, "salariedFlagDataGridViewCheckBoxColumn");
-            this.salariedFlagDataGridViewCheckBoxColumn.Name = "salariedFlagDataGridViewCheckBoxColumn";
-            // 
-            // vacationHoursDataGridViewTextBoxColumn
-            // 
-            this.vacationHoursDataGridViewTextBoxColumn.DataPropertyName = "VacationHours";
-            resources.ApplyResources(this.vacationHoursDataGridViewTextBoxColumn, "vacationHoursDataGridViewTextBoxColumn");
-            this.vacationHoursDataGridViewTextBoxColumn.Name = "vacationHoursDataGridViewTextBoxColumn";
-            // 
-            // sickLeaveHoursDataGridViewTextBoxColumn
-            // 
-            this.sickLeaveHoursDataGridViewTextBoxColumn.DataPropertyName = "SickLeaveHours";
-            resources.ApplyResources(this.sickLeaveHoursDataGridViewTextBoxColumn, "sickLeaveHoursDataGridViewTextBoxColumn");
-            this.sickLeaveHoursDataGridViewTextBoxColumn.Name = "sickLeaveHoursDataGridViewTextBoxColumn";
-            // 
-            // currentFlagDataGridViewCheckBoxColumn
-            // 
-            this.currentFlagDataGridViewCheckBoxColumn.DataPropertyName = "CurrentFlag";
-            resources.ApplyResources(this.currentFlagDataGridViewCheckBoxColumn, "currentFlagDataGridViewCheckBoxColumn");
-            this.currentFlagDataGridViewCheckBoxColumn.Name = "currentFlagDataGridViewCheckBoxColumn";
-            // 
-            // rowguidDataGridViewTextBoxColumn
-            // 
-            this.rowguidDataGridViewTextBoxColumn.DataPropertyName = "rowguid";
-            resources.ApplyResources(this.rowguidDataGridViewTextBoxColumn, "rowguidDataGridViewTextBoxColumn");
-            this.rowguidDataGridViewTextBoxColumn.Name = "rowguidDataGridViewTextBoxColumn";
-            // 
-            // modifiedDateDataGridViewTextBoxColumn
-            // 
-            this.modifiedDateDataGridViewTextBoxColumn.DataPropertyName = "ModifiedDate";
-            resources.ApplyResources(this.modifiedDateDataGridViewTextBoxColumn, "modifiedDateDataGridViewTextBoxColumn");
-            this.modifiedDateDataGridViewTextBoxColumn.Name = "modifiedDateDataGridViewTextBoxColumn";
+            this.phoneMhsDataGridViewTextBoxColumn.DataPropertyName = "PhoneMhs";
+            resources.ApplyResources(this.phoneMhsDataGridViewTextBoxColumn, "phoneMhsDataGridViewTextBoxColumn");
+            this.phoneMhsDataGridViewTextBoxColumn.Name = "phoneMhsDataGridViewTextBoxColumn";
             // 
             // Form1
             // 
@@ -200,8 +130,10 @@
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.adventureWorksDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.adventureWorksDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prodiTIDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -212,22 +144,14 @@
         private AdventureWorksDataSet adventureWorksDataSet;
         private System.Windows.Forms.BindingSource employeeBindingSource;
         private AdventureWorksDataSetTableAdapters.EmployeeTableAdapter employeeTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn employeeIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nationalIDNumberDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn contactIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn loginIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn managerIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn titleDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn birthDateDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn maritalStatusDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn genderDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn hireDateDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn salariedFlagDataGridViewCheckBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn vacationHoursDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sickLeaveHoursDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn currentFlagDataGridViewCheckBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn rowguidDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn modifiedDateDataGridViewTextBoxColumn;
+        private ProdiTIDataSet prodiTIDataSet;
+        private System.Windows.Forms.BindingSource mahasiswaBindingSource;
+        private ProdiTIDataSetTableAdapters.MahasiswaTableAdapter mahasiswaTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nIMDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn namaMhsDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn alamatMhsDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sexDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn phoneMhsDataGridViewTextBoxColumn;
     }
 }
 

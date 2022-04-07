@@ -117,160 +117,61 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="employeeIDDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>EmployeeID</value>
+  <data name="nIMDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>NIM</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="employeeIDDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+  <data name="nIMDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="employeeIDDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+  <data name="nIMDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
     <value>125</value>
   </data>
-  <data name="nationalIDNumberDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>NationalIDNumber</value>
+  <data name="namaMhsDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>NamaMhs</value>
   </data>
-  <data name="nationalIDNumberDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+  <data name="namaMhsDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="nationalIDNumberDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+  <data name="namaMhsDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
     <value>125</value>
   </data>
-  <data name="contactIDDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>ContactID</value>
+  <data name="alamatMhsDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>AlamatMhs</value>
   </data>
-  <data name="contactIDDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+  <data name="alamatMhsDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="contactIDDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+  <data name="alamatMhsDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
     <value>125</value>
   </data>
-  <data name="loginIDDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>LoginID</value>
+  <data name="sexDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Sex</value>
   </data>
-  <data name="loginIDDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+  <data name="sexDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="loginIDDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+  <data name="sexDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
     <value>125</value>
   </data>
-  <data name="managerIDDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>ManagerID</value>
+  <data name="phoneMhsDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>PhoneMhs</value>
   </data>
-  <data name="managerIDDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+  <data name="phoneMhsDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="managerIDDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+  <data name="phoneMhsDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
     <value>125</value>
   </data>
-  <data name="titleDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>Title</value>
-  </data>
-  <data name="titleDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="titleDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
-    <value>125</value>
-  </data>
-  <data name="birthDateDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>BirthDate</value>
-  </data>
-  <data name="birthDateDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="birthDateDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
-    <value>125</value>
-  </data>
-  <data name="maritalStatusDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>MaritalStatus</value>
-  </data>
-  <data name="maritalStatusDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="maritalStatusDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
-    <value>125</value>
-  </data>
-  <data name="genderDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>Gender</value>
-  </data>
-  <data name="genderDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="genderDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
-    <value>125</value>
-  </data>
-  <data name="hireDateDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>HireDate</value>
-  </data>
-  <data name="hireDateDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="hireDateDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
-    <value>125</value>
-  </data>
-  <data name="salariedFlagDataGridViewCheckBoxColumn.HeaderText" xml:space="preserve">
-    <value>SalariedFlag</value>
-  </data>
-  <data name="salariedFlagDataGridViewCheckBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="salariedFlagDataGridViewCheckBoxColumn.Width" type="System.Int32, mscorlib">
-    <value>125</value>
-  </data>
-  <data name="vacationHoursDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>VacationHours</value>
-  </data>
-  <data name="vacationHoursDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="vacationHoursDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
-    <value>125</value>
-  </data>
-  <data name="sickLeaveHoursDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>SickLeaveHours</value>
-  </data>
-  <data name="sickLeaveHoursDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="sickLeaveHoursDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
-    <value>125</value>
-  </data>
-  <data name="currentFlagDataGridViewCheckBoxColumn.HeaderText" xml:space="preserve">
-    <value>CurrentFlag</value>
-  </data>
-  <data name="currentFlagDataGridViewCheckBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="currentFlagDataGridViewCheckBoxColumn.Width" type="System.Int32, mscorlib">
-    <value>125</value>
-  </data>
-  <data name="rowguidDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>rowguid</value>
-  </data>
-  <data name="rowguidDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="rowguidDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
-    <value>125</value>
-  </data>
-  <data name="modifiedDateDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
-    <value>ModifiedDate</value>
-  </data>
-  <data name="modifiedDateDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="modifiedDateDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
-    <value>125</value>
-  </data>
-  <metadata name="employeeBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>239, 17</value>
+  <metadata name="mahasiswaBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>390, 60</value>
   </metadata>
-  <metadata name="adventureWorksDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+  <metadata name="prodiTIDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>232, 60</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 62</value>
+    <value>103, 41</value>
   </data>
   <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
@@ -293,11 +194,23 @@
   <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="employeeBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>239, 17</value>
+  </metadata>
+  <metadata name="adventureWorksDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="adventureWorksDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="employeeTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 60</value>
+  </metadata>
+  <metadata name="prodiTIDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>232, 60</value>
+  </metadata>
+  <metadata name="mahasiswaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 103</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -311,17 +224,17 @@
   <data name="$this.Text" xml:space="preserve">
     <value>EmployeeDetails</value>
   </data>
-  <data name="&gt;&gt;adventureWorksDataSet.Name" xml:space="preserve">
-    <value>adventureWorksDataSet</value>
-  </data>
-  <data name="&gt;&gt;adventureWorksDataSet.Type" xml:space="preserve">
-    <value>RetrievingData.AdventureWorksDataSet, AdventureWorksDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
   <data name="&gt;&gt;employeeBindingSource.Name" xml:space="preserve">
     <value>employeeBindingSource</value>
   </data>
   <data name="&gt;&gt;employeeBindingSource.Type" xml:space="preserve">
     <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;adventureWorksDataSet.Name" xml:space="preserve">
+    <value>adventureWorksDataSet</value>
+  </data>
+  <data name="&gt;&gt;adventureWorksDataSet.Type" xml:space="preserve">
+    <value>RetrievingData.AdventureWorksDataSet, AdventureWorksDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;employeeTableAdapter.Name" xml:space="preserve">
     <value>employeeTableAdapter</value>
@@ -329,100 +242,52 @@
   <data name="&gt;&gt;employeeTableAdapter.Type" xml:space="preserve">
     <value>RetrievingData.AdventureWorksDataSetTableAdapters.EmployeeTableAdapter, AdventureWorksDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;employeeIDDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>employeeIDDataGridViewTextBoxColumn</value>
+  <data name="&gt;&gt;prodiTIDataSet.Name" xml:space="preserve">
+    <value>prodiTIDataSet</value>
   </data>
-  <data name="&gt;&gt;employeeIDDataGridViewTextBoxColumn.Type" xml:space="preserve">
+  <data name="&gt;&gt;prodiTIDataSet.Type" xml:space="preserve">
+    <value>RetrievingData.ProdiTIDataSet, ProdiTIDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mahasiswaBindingSource.Name" xml:space="preserve">
+    <value>mahasiswaBindingSource</value>
+  </data>
+  <data name="&gt;&gt;mahasiswaBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mahasiswaTableAdapter.Name" xml:space="preserve">
+    <value>mahasiswaTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;mahasiswaTableAdapter.Type" xml:space="preserve">
+    <value>RetrievingData.ProdiTIDataSetTableAdapters.MahasiswaTableAdapter, ProdiTIDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nIMDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>nIMDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;nIMDataGridViewTextBoxColumn.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;nationalIDNumberDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>nationalIDNumberDataGridViewTextBoxColumn</value>
+  <data name="&gt;&gt;namaMhsDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>namaMhsDataGridViewTextBoxColumn</value>
   </data>
-  <data name="&gt;&gt;nationalIDNumberDataGridViewTextBoxColumn.Type" xml:space="preserve">
+  <data name="&gt;&gt;namaMhsDataGridViewTextBoxColumn.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;contactIDDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>contactIDDataGridViewTextBoxColumn</value>
+  <data name="&gt;&gt;alamatMhsDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>alamatMhsDataGridViewTextBoxColumn</value>
   </data>
-  <data name="&gt;&gt;contactIDDataGridViewTextBoxColumn.Type" xml:space="preserve">
+  <data name="&gt;&gt;alamatMhsDataGridViewTextBoxColumn.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;loginIDDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>loginIDDataGridViewTextBoxColumn</value>
+  <data name="&gt;&gt;sexDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>sexDataGridViewTextBoxColumn</value>
   </data>
-  <data name="&gt;&gt;loginIDDataGridViewTextBoxColumn.Type" xml:space="preserve">
+  <data name="&gt;&gt;sexDataGridViewTextBoxColumn.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;managerIDDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>managerIDDataGridViewTextBoxColumn</value>
+  <data name="&gt;&gt;phoneMhsDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>phoneMhsDataGridViewTextBoxColumn</value>
   </data>
-  <data name="&gt;&gt;managerIDDataGridViewTextBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;titleDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>titleDataGridViewTextBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;titleDataGridViewTextBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;birthDateDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>birthDateDataGridViewTextBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;birthDateDataGridViewTextBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;maritalStatusDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>maritalStatusDataGridViewTextBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;maritalStatusDataGridViewTextBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;genderDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>genderDataGridViewTextBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;genderDataGridViewTextBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hireDateDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>hireDateDataGridViewTextBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;hireDateDataGridViewTextBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;salariedFlagDataGridViewCheckBoxColumn.Name" xml:space="preserve">
-    <value>salariedFlagDataGridViewCheckBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;salariedFlagDataGridViewCheckBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;vacationHoursDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>vacationHoursDataGridViewTextBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;vacationHoursDataGridViewTextBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sickLeaveHoursDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>sickLeaveHoursDataGridViewTextBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;sickLeaveHoursDataGridViewTextBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;currentFlagDataGridViewCheckBoxColumn.Name" xml:space="preserve">
-    <value>currentFlagDataGridViewCheckBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;currentFlagDataGridViewCheckBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rowguidDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>rowguidDataGridViewTextBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;rowguidDataGridViewTextBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;modifiedDateDataGridViewTextBoxColumn.Name" xml:space="preserve">
-    <value>modifiedDateDataGridViewTextBoxColumn</value>
-  </data>
-  <data name="&gt;&gt;modifiedDateDataGridViewTextBoxColumn.Type" xml:space="preserve">
+  <data name="&gt;&gt;phoneMhsDataGridViewTextBoxColumn.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
